@@ -1,2 +1,2 @@
 language: cpp
-make && make test
+install: make
