@@ -6,4 +6,4 @@ EvoSumo: EvoSumo.o
 	$(CXX) $(CXXFLAGS) -o EvoSumo EvoSumo.o
 
 EvoSumo.o: src/EvoSumo.cpp
-	$(CXX) $(CXXFLAGS) src/EvoSumo.cpp
+	$(CXX) $(CXXFLAGS) -c src/EvoSumo.cpp
